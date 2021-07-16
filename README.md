@@ -22,4 +22,6 @@ The nested for-loop adds each detail (title, author, rank, etc) into its own lis
 
 ## (c) Unexpected problems and solutions.
 
-I thought I would need to create a list of URLs to pass through the main function that scrapes each page, but I ended up being able to combine it so that it did everything in one function. The rank of the books were also not explicitly coded in the HTML, so I had to use the index of the books when looping through the code to retrieve the rank.
+I thought I would need to create a list of URLs to pass through the main function that scrapes each page individually. I ended up being able to combine everything so that it automatically ran each page and then traversed to the link to the next page in one function to scrape the data. 
+
+The rank of the books were also not explicitly coded in the HTML, so I had to use the index of the books when looping through the code to retrieve the rank.
